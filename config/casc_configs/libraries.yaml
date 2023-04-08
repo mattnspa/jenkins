@@ -1,0 +1,12 @@
+unclassified:
+  globalLibraries:
+    libraries:
+      - defaultVersion: "main"
+        implicit: true
+        name: "jenkins-pipeline-lib"
+        retriever:
+          modernSCM:
+            scm:
+              git:
+                credentialsId: "jenkins-git-ssh"
+                remote: "git@github.com:mattnspa/jenkinsLibrary.git"
